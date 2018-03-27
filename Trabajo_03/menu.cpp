@@ -7,7 +7,7 @@ int menu() {
 	std::locale::global(std::locale("spanish"));
 	system("cls");
 	int election;
-	printf("\n¡Bienvenidos! Elija una de las opciones y pulse enter\n [1] Imprimir Sizeof de los distintos tipos\n [2] Imprimir un valor con diferentes formatos\n [3] Imprimir límites numéricos para los diferentes tipos\n [4] Imprimir el valor: 0xFFFFFFFF signed y unsigned\n [99] Salir\n");
+	printf("\n¡Bienvenidos! Elija una de las opciones y pulse enter\n [1] Imprimir Sizeof con sus mínimos y máximos\n [2] Imprimir un valor con diferentes formatos\n [3] Imprimir el valor: 0xFFFFFFFF signed y unsigned\n [4] Array\n [99] Salir\n");
 
 	scanf_s("%d", &election);
 	system("cls");

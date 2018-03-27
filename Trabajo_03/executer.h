@@ -5,6 +5,6 @@
 int execute(int menuN);
 void menuSizeOf();
 void menuFormats();
-void menuMaxMin();
+void menuArray();
 void menuResultAB();
 
